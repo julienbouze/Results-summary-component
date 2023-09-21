@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/mobile.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/script.js"></script>
+  
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body>
+  <div id="container">
+    <div class="result-container-wrapper">
+      <div id="moyenne" class="result-container">
+        <h3>Your result</h3>
+        <!-- Conteneur pour aligner la moyenne au-dessus de "out 100" -->
+        <div class="moyenne-container">
+          <span id="number"></span>
+          <span class="small-text">out 100</span>
+        </div>
+        <h2>Great</h2>
+        <p id="rank">You scored higher than 65% of the people who have taken these tests</p>
+      </div>
+      <div id="resultats" class="result-container">
+        <h2 id="summary">Summary</h2>
+        <div id="res"></div>
+        <button class="bouton-arrondi">Continue</button>
+        <!-- Le contenu de la div de résultats sera inséré ici -->
+      </div>
+    </div>
+  </div>
+
+  <div id="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://github.com/julienbouze">Julien Bouze</a>.
+  </div>
+</body>
+</html>

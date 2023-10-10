@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/julienbouze/Rsc
-- Live Site URL: https://julienbouze.github.io/Rsc/
+- Solution URL: https://github.com/julienbouze/Results-summary-component
+- Live Site URL: https://julienbouze.github.io/Results-summary-component/
 
 ## My process
 
